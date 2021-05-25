@@ -1,14 +1,14 @@
 /* Common */
 body {
   scroll-behavior: smooth;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   text-align: center;
   color: #444;
 }
 
 hr {
   border-style: dotted none none;
-  border-color: #FF8B00;
+  border-color: #ff8b00;
   background-color: transparent;
   border-width: 10px;
   width: 50px;
@@ -17,12 +17,12 @@ hr {
 
 .section-head {
   font-size: 3rem;
-  color: #FF8B00;
+  color: #ff8b00;
 }
 
 /* Jumbotron */
 #jumbotron {
-  background-color: #FEFFDB;
+  background-color: #feffdb;
 }
 
 .logo {
@@ -31,14 +31,14 @@ hr {
 }
 
 .name {
-  font-family: 'Sacramento', cursive;
-  color: #FF8B00;
+  font-family: "Sacramento", cursive;
+  color: #ff8b00;
   font-weight: bold;
   font-size: 5rem;
 }
 
 .role {
-  color: #FFC60B;
+  color: #ffc60b;
   font-size: 1.5rem;
   margin-bottom: 50px;
 }
@@ -76,7 +76,7 @@ hr {
 .intro-greeting {
   font-size: 4rem;
   font-weight: 700;
-  color: #FF8B00;
+  color: #ff8b00;
 }
 
 .intro-description {
@@ -85,23 +85,26 @@ hr {
 }
 
 /* Skills */
-#skills {
+#skills,
+#projects {
   padding: 5% 0;
 }
 
 .subsection-head {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #FFC60B;
+  color: #ffc60b;
   margin-bottom: 1em;
 }
 
-.skill-row {
+.skill-row,
+.project-row {
   margin-top: 50px;
   padding: 2% 5%;
 }
 
-.skill-img {
+.skill-img,
+.project-img {
   width: 100%;
   border-radius: 100%;
   box-shadow: 20px 21px 25px -9px rgba(151, 151, 151, 0.65);
@@ -109,14 +112,16 @@ hr {
   -moz-box-shadow: 20px 21px 25px -9px rgba(151, 151, 151, 0.65);
 }
 
-.skill-header {
-  color: #FFC60B;
+.skill-header,
+.project-header {
+  color: #ffc60b;
   font-size: 2rem;
   font-weight: 700;
   text-align: left;
 }
 
-.skill-description {
+.skill-description,
+.project-description {
   text-align: left;
 }
 
@@ -128,19 +133,19 @@ hr {
 .contact-link {
   display: inline-block;
   padding: 3% 10%;
-  background: #FEFFDB;
+  background: #feffdb;
   border-radius: 6px;
   text-decoration: none;
-  color:#444;
+  color: #444;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
-.contact-link:hover{
-  background-color: #FDFFAB;
+.contact-link:hover {
+  background-color: #fdffab;
   color: #444;
 }
-.contact-description{
+.contact-description {
   font-size: 1.1rem;
   padding: 10px 30px;
   margin: 10px 0 40px;
@@ -148,25 +153,26 @@ hr {
 /* Footer */
 #footer {
   padding: 6% 0;
-  background-color: #FEFFDB;
+  background-color: #feffdb;
 }
-.social-link{
+.social-link {
   display: inline-block;
   text-decoration: none;
   font-size: 2rem;
   margin: 0 5% 20px;
   color: #444;
 }
-.social-link:hover{
-  color:#FFC60B;
+.social-link:hover {
+  color: #ffc60b;
 }
-.copyright-text{
+.copyright-text {
   margin: 0;
   font-size: 0.8rem;
 }
 
 @media (max-width: 767px) {
-  .duck-right, .duck-left {
+  .duck-right,
+  .duck-left {
     display: none;
   }
 
@@ -195,16 +201,16 @@ hr {
   .skill-description {
     text-align: justify;
   }
-  .contact-description{
+  .contact-description {
     margin: 10px 0 10px;
   }
 
-  .contact-link{
+  .contact-link {
     padding: 5% 10%;
     margin-bottom: 6%;
   }
 
-  .social-link{
+  .social-link {
     font-size: 1rem;
     margin: 0 2%;
   }
